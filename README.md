@@ -1,10 +1,9 @@
-# ByteCar
+# Eletric Cars Showroom
 
 ### Home:
-![image](https://user-images.githubusercontent.com/68971295/194430936-e0684210-4d75-469e-b9f3-52023ba0c8fb.png)
+![bytecar-home_mock](https://user-images.githubusercontent.com/68971295/196051769-bef52dd6-f4c5-476d-84f1-829cc3a9f7a4.png)
 
-### Kanban: 
-![image](https://user-images.githubusercontent.com/68971295/194431486-c8364654-3faa-49a7-8ea2-f4b954b8d793.png)
+### [Kanban](https://user-images.githubusercontent.com/68971295/194431486-c8364654-3faa-49a7-8ea2-f4b954b8d793.png)
 
 
 This is a web page that let's you make an appointment for an electic car test drive.
@@ -16,7 +15,7 @@ This app makes use of API calls to [its back-end API](https://github.com/jr-cast
 
 ## App functions: :wink:
 
-With the ByteCar app, you can do the following:
+With this app, you can do the following:
 
 - Authenticate users:
   - Create an account by providing a valid data.
@@ -72,6 +71,12 @@ This project was developed by a team of 5 people, you can check that out in our 
 
 ## Authors: 👋
 
+### 👤 Fabiano Frank
+
+- GitHub: [@fabianofrank](https://github.com/fabianofrank)
+- Twitter: [@fabianofrankk](https://twitter.com/fabianofrankk)
+- LinkedIn: [@fabianofrank](https://www.linkedin.com/in/fabianofrank/)
+
 ### 👤 Jose
 
 - GitHub: [@jr-cast](https://github.com/jr-cast)
@@ -83,12 +88,6 @@ This project was developed by a team of 5 people, you can check that out in our 
 - GitHub: [@HectorTorres](https://github.com/HectorTorresE)
 - Twitter: [@HectorT](https://twitter.com/HectorT00406915)
 - LinkedIn: [@Hectorjte](https://www.linkedin.com/in/hectorjte/)
-
-### 👤 Fabiano Frank
-
-- GitHub: [@fabianofrank](https://github.com/fabianofrank)
-- Twitter: [@fabianofrankk](https://twitter.com/fabianofrankk)
-- LinkedIn: [@fabianofrank](https://www.linkedin.com/in/fabianofrank/)
 
 ## Contributing: 🤝
 
