@@ -1,7 +1,8 @@
-# Eletric Cars Showroom
+# Showroom UI
 
 ### Home:
-![bytecar-home_mock](https://user-images.githubusercontent.com/68971295/196051769-bef52dd6-f4c5-476d-84f1-829cc3a9f7a4.png)
+![showroom(1)](https://user-images.githubusercontent.com/68971295/196065323-c4b45e7b-b2bd-467a-bdab-036fc8b07747.png)
+![showroom](https://user-images.githubusercontent.com/68971295/196065186-cacd61f4-e1c4-4aa0-ab16-8b2e7e17f2b1.png)
 
 ### [Kanban](https://user-images.githubusercontent.com/68971295/194431486-c8364654-3faa-49a7-8ea2-f4b954b8d793.png)
 
