@@ -34,7 +34,7 @@ export default function AddReservation() {
           <div className="flex flex-col md:flex-row md:space-x-10 justify-between md:justify-start">
             <div className="">
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="city">
-                City
+                Select Car
                 <select className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-custom-green-500 focus:placeholder:text-custom-green-500" placeholder="City" required>
                   {carList.map((car) => (
                     <option name="carID" id="carID" key={car.id} value={car.id}>{car.model}</option>

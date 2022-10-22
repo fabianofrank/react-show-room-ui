@@ -12,7 +12,7 @@ const Cars = () => {
   const carProps = [];
 
   async function fetchData() {
-    await request.get('https://glacial-dawn-47690.herokuapp.com/api/v1/cars').then((res) => {
+    await request.get('http://localhost:3000/api/v1/cars').then((res) => {
       dispatch(fetchCarsSuccess(res.data));
     });
   }
@@ -44,7 +44,7 @@ const Cars = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center text-center py-10">
+      <div className="flex flex-col items-center text-center py-20">
         <h1 className="text-3xl font-bold mb-4">Bytecar available electric models</h1>
         <h4 className="text-2xl">Please select a model</h4>
       </div>

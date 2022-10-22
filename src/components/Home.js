@@ -8,9 +8,9 @@ const Home = () => {
       <div>
 
         <div className="home-container h-32 w-32 ...">
-          <h1>BE PART OF THE ELECTRIC REVOLUTION</h1>
+          <h1 className="relative bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20">BE PART OF THE ELECTRIC REVOLUTION</h1>
           <div className="flex m-2 absolute right-0 bottom-0 ...">
-            <Link to="/logout" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 rounded-full  px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">logout</Link>
+            <Link to="/logout" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 rounded-full  px-5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">logout</Link>
           </div>
         </div>
 
@@ -49,10 +49,10 @@ const Home = () => {
     <div className="">
 
       <div className="home-container relative h-32 w-32 ...">
-        <h1>BE PART OF THE ELECTRIC REVOLUTION</h1>
+        <h1 className="relative bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20">BE PART OF THE ELECTRIC REVOLUTION</h1>
         <div className="flex m-2 space-x-1 absolute right-0 bottom-0 ...">
-          <Link to="/login" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 rounded-full  px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">login</Link>
-          <Link to="/signup" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 rounded-full  px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">signup</Link>
+          <Link to="/login" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 rounded-full  px-5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">login</Link>
+          <Link to="/signup" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 rounded-full  px-5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">signup</Link>
         </div>
       </div>
 

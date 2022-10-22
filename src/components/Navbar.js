@@ -5,7 +5,7 @@ import * as TbIcons from 'react-icons/tb';
 import * as BsIcons from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { IconContext } from 'react-icons';
-import './navbar.css';
+import '../Navbar.css';
 
 const links = [
   {
@@ -57,7 +57,7 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className="nav-menu active">
-          <ul className="nav-menu-items">
+          <ul className="nav-menu-items bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20">
             <li className="nav-color flex flex-row h-36 items-center">
               <MdIcons.MdOutlineElectricCar className="text-7xl mx-auto" />
             </li>
@@ -66,7 +66,7 @@ function Navbar() {
                 key={link.id}
                 className={link.cName}
               >
-                <Link to={link.path} className="active">
+                <Link to={link.path} className="active hover:bg-purple-700 hover:transition-shadow duration-300">
                   {link.icon}
                   <span>{link.title}</span>
                 </Link>
