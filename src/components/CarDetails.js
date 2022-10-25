@@ -19,7 +19,7 @@ const CarDetails = () => {
                 {' '}
                 {carDetailsParsed.model}
               </h1>
-              <img className="max-w-md" src={carDetailsParsed.image} alt={carDetailsParsed[0].model} />
+              <img className="max-w-md" src={carDetailsParsed.image} alt={carDetailsParsed.model} />
               <Link className="link-to-cars py-3" to="/cars">
                 DISCOVER MORE MODELS
               </Link>
@@ -87,7 +87,7 @@ const CarDetails = () => {
               {' '}
               {carDetailsParsed.model}
             </h1>
-            <img className="max-w-md" src={carDetailsParsed.image} alt={carDetailsParsed[0].model} />
+            <img className="max-w-md" src={carDetailsParsed.image} alt={carDetailsParsed.model} />
             <Link className="link-to-cars py-3" to="/cars">
               DISCOVER MORE MODELS
             </Link>
