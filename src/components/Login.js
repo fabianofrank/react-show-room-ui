@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
     if (userName.length > 3) {
       dispatch(loginUser(userName));
-      setUsername();
+      setUsername('');
       navigate('/');
     }
     window.location.reload(false);

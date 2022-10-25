@@ -1,5 +1,16 @@
 import axios from 'axios';
 
+export const authHeader = () => {
+  const user = JSON.parse(localStorage.getItem('user'));
+
+  if (user && user.token) {
+    return { Authorization: `Bearer ${user.token}`, 'Content-Type': 'application/json' };
+  }
+  return {};
+};
+
+export const request = axios.create({ headers: authHeader() });
+
 export const logout = () => {
   localStorage.removeItem('user');
   if (localStorage.getItem('user') == null) {
@@ -9,10 +20,10 @@ export const logout = () => {
 };
 
 export const login = async (userName) => {
-  const request = await axios.post('https://limitless-meadow-50208.herokuapp.com/api/v1/sessions', {
+  const postRequest = await request.post('https://limitless-meadow-50208.herokuapp.com/api/v1/sessions', {
     username: userName,
   });
-  const response = request.data;
+  const response = postRequest.data;
   if (response) {
     localStorage.setItem('user', JSON.stringify(response));
   }
@@ -29,14 +40,3 @@ export const signup = async (userName) => {
   }
   return response;
 };
-
-export const authHeader = () => {
-  const user = JSON.parse(localStorage.getItem('user'));
-
-  if (user && user.token) {
-    return { Authorization: `Bearer ${user.token}`, 'Content-Type': 'application/json' };
-  }
-  return {};
-};
-
-export const request = axios.create({ headers: authHeader() });
