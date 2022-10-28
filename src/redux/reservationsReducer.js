@@ -16,7 +16,6 @@ export function fetchReservationsSuccess(data) {
 }
 
 export const createReservation = (data, user) => async (dispatch) => {
-  console.log(data);
   const response = await request.post(`https://limitless-meadow-50208.herokuapp.com/api/v1/users/${user}/reservations`, data)
     .then((res) => res.data)
     .catch((error) => error);

@@ -14,7 +14,7 @@ const SignUp = () => {
     if (userName.length > 3) {
       dispatch(signupUser(userName));
       setUsername();
-      navigate('/login');
+      navigate('/');
     }
   };
 
@@ -34,7 +34,7 @@ const SignUp = () => {
                     </div>
 
                     <form onSubmit={userSubmit}>
-                      <p className="mb-4">Please login to your account</p>
+                      <p className="mb-4">Please create your account</p>
                       <div className="mb-4">
                         <input
                           onChange={(e) => setUsername(e.target.value)}
@@ -55,7 +55,7 @@ const SignUp = () => {
                         </button>
                       </div>
                       <div className="flex items-center justify-between pb-6">
-                        <p className="mb-0 mr-2">Don&apos;t have an account?</p>
+                        <p className="mb-0 mr-2">Already have an account?</p>
                         <Link to="/login">
                           <button
                             type="submit"

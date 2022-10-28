@@ -20,9 +20,10 @@ export const logout = () => {
 };
 
 export const login = async (userName) => {
-  const postRequest = await request.post('https://limitless-meadow-50208.herokuapp.com/api/v1/sessions', {
+  const postRequest = await axios.post('https://limitless-meadow-50208.herokuapp.com/api/v1/sessions', {
     username: userName,
   });
+
   const response = postRequest.data;
   if (response) {
     localStorage.setItem('user', JSON.stringify(response));
