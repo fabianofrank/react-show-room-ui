@@ -37,9 +37,6 @@ const userSlice = createSlice({
     [loginUser.rejected]: (state) => {
       state.status = 'rejected';
     },
-    [loginUser.pending]: (state) => {
-      state.status = 'loading';
-    },
     [logoutUser]: (state, { payload }) => {
       state.username = payload.user;
     },

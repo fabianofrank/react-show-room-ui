@@ -12,7 +12,7 @@ const Cars = () => {
   const carProps = [];
 
   async function fetchData() {
-    await request.get('http://localhost:3000/api/v1/cars').then((res) => {
+    await request.get('https://limitless-meadow-50208.herokuapp.com/api/v1/cars').then((res) => {
       dispatch(fetchCarsSuccess(res.data));
     });
   }
